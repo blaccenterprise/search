@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Area of Circle Calculator</title>
+</head>
+
+<body>
+<form id="fishWeight" action="">
+<fieldset>
+	<legend>Area of Circle Calculator</legend>
+	<p>
+		<label for="length">Radius (in)</label>
+		<input id="length" name="length" type="number/text" />
+	</p>
+
+	<p>
+		<input type="submit" value="Calculate" />
+		or
+		<input type="reset" value="Reset" />
+	</p>
+	<p>
+		<label for="weight">Area (in<sup>2</sup>)</label>
+		<input id="weight" name="weight" type="number" />
+	</p>
+</fieldset>
+</form>
+
+<script>
+(function () {
+	function calculateFishWeight(length) {
+		length = parseFloat(length);
+		return (length * length * 3.14);
+	}
+
+	var fishWeight = document.getElementById("fishWeight");
+	if (fishWeight) {
+		fishWeight.onsubmit = function () {
+			this.weight.value = calculateFishWeight(this.length.value);
+			return false;
+		};
+	}
+}());
+</script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Area of Rectangle Calculator</title>
+</head>
+
+<body>
+<form id="areofrect" action="">
+<fieldset>
+	<legend>Area of Rectangle Calculator</legend>
+	<p>
+		<label for="length">Length (in)</label>
+		<input id="length" name="length" type="number" />
+	</p>
+	<p>
+		<label for="width">Width (in)</label>
+		<input id="width" name="width" type="number" />
+	</p>
+	<p>
+		<input type="submit" value="Calculate" />
+		or
+		<input type="reset" value="Reset" />
+	</p>
+	<p>
+		<label for="width">Area Of Rectangle (in^2)</label>
+		<input id="width" name="width" type="number" />
+	</p>
+</fieldset>
+</form>
+
+<script>
+(function () {
+	function calculateareaofrect(length, width) {
+		length = parseFloat(length);
+		width = parseFloat(width);
+		return (length * width);
+	}
+
+	var areaofrect = document.getElementById("areaofrect");
+	if (areaofrect) {
+		areaofrect.onsubmit = function () {
+			this.width.value = calculateareaofrect(this.length.value, this.width.value);
+			return false;
+		};
+	}
+}());
+</script>
+</body>
+</html>
