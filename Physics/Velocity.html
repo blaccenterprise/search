@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Velocity Calculator</title>
+</head>
+
+<body>
+<form id="fishWeight" action="">
+<fieldset>
+	<legend>Velocity Calculator... <i>...(Equation||   v = v<sub>(0)</sub> + at</i>)</legend>
+	<p>
+		<label for="ivelocity">Initial Velocity <i>(V<sub>0</sub>)</i></label>
+		<input id="ivelocity" name="ivelocity" type="number/text" />
+	</p>
+	<p>
+		<label for="acceleration">acceleration <i>a</i></label>
+		<input id="acceleration" name="acceleration" type="number/text" />
+	</p>
+	<p>
+		<label for="time">Time <i>t</i></label>
+		<input id="time" name="time" type="number/text" />
+	</p>
+	<p>
+		<input type="submit" value="Calculate" />
+		or
+		<input type="reset" value="Reset" />
+	</p>
+	<p>
+		<label for="weight">Velocity <i>(m/s)</i></label>
+		<input id="weight" name="weight" type="number" />
+	</p>
+</fieldset>
+</form>
+
+<script>
+(function () {
+	function calculateFishWeight(ivelocity, acceleration, time) {
+		ivelocity = parseFloat(ivelocity);
+		acceleration = parseFloat(acceleration);
+		time = parseFloat(time);
+		return (ivelocity + acceleration * time);
+	}
+
+	var fishWeight = document.getElementById("fishWeight");
+	if (fishWeight) {
+		fishWeight.onsubmit = function () {
+			this.weight.value = calculateFishWeight(this.ivelocity.value, this.acceleration.value, this.time.value);
+			return false;
+		};
+	}
+}());
+</script>
+</body>
+</html>

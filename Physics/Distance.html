@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Distance Calculator</title>
+</head>
+
+<body>
+<form id="fishWeight" action="">
+<fieldset>
+	<legend>Distance Calculator... <i>...(Equation||   s = s<sub>(0)</sub> + v<sub>0</sub>t + 1/2 * at<sup>2</sup></i>)</legend>
+	<p>
+		<label for="distance">Initial Distance <i>(s<sub>0</sub>)</i></label>
+		<input id="distance" name="distance" type="number/text" />
+	</p>
+<p>
+		<label for="ivelocity">Initial Velocity <i>(v<sub>0</sub>)</i></label>
+		<input id="ivelocity" name="ivelocity" type="number/text" />
+	</p>	<p>
+		<label for="acceleration">Acceleration <i>a</i></label>
+		<input id="acceleration" name="acceleration" type="number/text" />
+	</p>
+	<p>
+		<label for="time">Time <i>t</i></label>
+		<input id="time" name="time" type="number/text" />
+	</p>
+	<p>
+		<input type="submit" value="Calculate" />
+		or
+		<input type="reset" value="Reset" />
+	</p>
+	<p>
+		<label for="weight">Distance <i>(s)</i></label>
+		<input id="weight" name="weight" type="number" />
+	</p>
+</fieldset>
+</form>
+
+<script>
+(function () {
+	function calculateFishWeight(ivelocity, acceleration, time, distance) {
+		ivelocity = parseFloat(ivelocity);
+		distance = parseFloat(distance);
+		acceleration = parseFloat(acceleration);
+		time = parseFloat(time);
+		return (distance + ivelocity * time + 0.5 * acceleration * time * time);
+	}
+
+	var fishWeight = document.getElementById("fishWeight");
+	if (fishWeight) {
+		fishWeight.onsubmit = function () {
+			this.weight.value = calculateFishWeight(this.ivelocity.value, this.acceleration.value, this.time.value, this.distance.value);
+			return false;
+		};
+	}
+}());
+</script>
+</body>
+</html>
