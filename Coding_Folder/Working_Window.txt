@@ -1,0 +1,283 @@
+ <html>
+ <script>
+ //Missions {
+        //Access Missions  {
+    case "Access Missions":
+    text = "Use the Phrase : what are the avaliable __(Category Of Mission)__.";
+    Arthenya.say("Categories For Missions are Objective, Side Quest, Missions, Team Missions and Legion Mission.");
+    break;
+    //}
+        //Objectives  {
+            //Request To Hear The Possible Objectives  {
+    case "what are the avaliable objectives":
+    text = "The avaliable objectives: Register For A City (1 BC Stock - Limited Payout); Find The Closest Fye Near Yourself (5 BC Stock - One Time Payout.";
+    Arthenya.say("The avaliable objectives are Login Into A City With A 1 BC Stock - Limited Payout and Find The Closest Fye Near Yourself With A 5 BC Stock - One Time Payout");
+    alert("The avaliable objectives: Login Into A City (1 BC Stock - Limited Payout); Find The Closest Fye Near Yourself (5 BC Stock - One Time Payout)");
+    window.open("../Profile/steviecarpenter.html", "../Profile/steviecarpenter.html", "width=400,height=400");
+    break;
+    
+    case "what are the current objectives":
+    text = "The avaliable objectives: Login Into A City (1 BC Stock - Limited Payout); Find The Closest Fye Near Yourself (5 BC Stock - One Time Payout.";
+    Arthenya.say("The avaliable objectives are Login Into A City With A 1 BC Stock - Limited Payout and Find The Closest Fye Near Yourself With A 5 BC Stock - One Time Payout");
+    alert("The avaliable objectives: Login Into A City (1 BC Stock - Limited Payout); Find The Closest Fye Near Yourself (5 BC Stock - One Time Payout)");
+    window.open("../Profile/steviecarpenter.html", "../Profile/steviecarpenter.html", "width=400,height=400");
+    break;
+    //}
+            //Register For A City  {
+    case "details on register for a city objective":
+    text = "Within each District of every State, there is a collection of cities. The objective is to Log into the main site created by B.L.A.C.C. Connect, and register your Archetype.";
+    Arthenya.say("Within each District of every State, there is a collection of cities. The objective is to Log into the main site created by B.L.A.C.C. Connect, and register your Archetype. Observe which cities you registar your Archetype with because on-call missions may result in that area. If your not compatible with the area, results could be negative.");
+    alert("On-call Missions: Missions that result at any moment, even while you are sleep. Declining a On-call Mission result in BC Stock Deduction proportional to Mission");
+    window.open("../Profile/steviecarpenter.html", "../Profile/steviecarpenter.html", "width=400,height=400");
+    break;
+    
+    case "open register for a city":
+    window.open("./Missions/Objectives/Login_Into_City.html", "./Missions/Objectives/Login_Into_City.html", "width=1200,height=750");
+    break;
+            //}
+            //Find The Closest Fye Near Yourself  {
+    case "details on Find The Closest Fye Near Yourself objective":
+    text = "Fye is eveywhere. Find the clostest one near you and create a Phrase with your A.S.E. to give detaiils on the Fye near Yourself.";
+    Arthenya.say("Fye is eveywhere. Find the clostest one near you and create a Phrase with your A.S.E. to give detaiils on the Fye near Yourself. Use Phrase : open my notebook with your ASE to gain access to the location where you can upload details for your A.S.E. to remember and process.");
+    alert("Find Fye. Use Phrase : open my notebook to feed information to your A.S.E.");
+    window.open("../Profile/steviecarpenter.html", "../Profile/steviecarpenter.html", "width=400,height=400");
+    break;
+    
+    case "open find the closest fye near yourself":
+    window.open("./Missions/Objectives/Find_The_Closest_Fye_Near_Yourself.html", "./Missions/Objectives/Find_The_Closest_Fye_Near_Yourself.html", "width=1200,height=750");
+    break;
+            //}
+              //} 
+        //Side Quest  {
+            //Request To Hear The Possible Side Quest  {
+    case "what are the avaliable side quest":
+    text = "The avaliable Side Quest: Beacon Placement (100 BC Stock - Limited Payout); Map Design (35 BC Stock - Limited Payout); Discover A Network Within The Neihboring Cities *at least three cities (300 BC Stock - Limited Payout).";
+    Arthenya.say("The avaliable Side Quest are Beacon Placement with 100 BC Stock - Limited Payout; Map Design with 35 BC Stock - Limited Payout; and Discover A Network Within The Neihboring Cities *at least three cities with 300 BC Stock - Limited Payout.");
+    alert("The avaliable Side Quest: Beacon Placement (100 BC Stock - Limited Payout); Map Design (35 BC Stock - Limited Payout); Discover A Network Within The Neihboring Cities *at least three cities (300 BC Stock - Limited Payout).");
+    window.open("../Profile/steviecarpenter.html", "../Profile/steviecarpenter.html", "width=400,height=400");
+    break;
+    
+    case "what are the current side quest":
+    text = "The avaliable Side Quest: Beacon Placement (100 BC Stock - Limited Payout); Map Design (35 BC Stock - Limited Payout); Discover A Network Within The Neihboring Cities *at least three cities (300 BC Stock - Limited Payout.";
+    Arthenya.say("The avaliable Side Quest are Beacon Placement with 100 BC Stock - Limited Payout; Map Design with 35 BC Stock - Limited Payout; and Discover A Network Within The Neihboring Cities *at least three cities with 300 BC Stock - Limited Payout.");
+    alert("The avaliable Side Quest: Beacon Placement (100 BC Stock - Limited Payout); Map Design (35 BC Stock - Limited Payout); Discover A Network Within The Neihboring Cities *at least three cities (300 BC Stock - Limited Payout).");
+    window.open("../Profile/steviecarpenter.html", "../Profile/steviecarpenter.html", "width=400,height=400");
+    break;
+    //}
+            //Beacon Placement  {
+    case "details on beacon placement side quest":
+    text = "Certain Cities have landwmarks that are valuable to the referncing of the B.L.A.C.C. Connect members. The Beacon Placement will be a side quest that will give access to a special location of interest and the Archetype must travel to location to complete the following : Take pictures of the surrounding, take note of traffic by pedestrians and Fye, take note of any public cameras, count the number of established businesses and the number of businesses that are open when the location is visted.";
+    Arthenya.say("Certain Cities have landwmarks that are valuable to the referncing of the B.L.A.C.C. Connect members. The Beacon Placement will be a side quest that will give access to a special location of interest and the Archetype must travel to location to complete the following : Take pictures of the surrounding, take note of traffic by pedestrians and Fye, take note of any public cameras, count the number of established businesses and the number of businesses that are open when the location is visted.");
+    alert("Certain Cities have landwmarks that are valuable to the referncing of the B.L.A.C.C. Connect members. The Beacon Placement will be a side quest that will give access to a special location of interest and the Archetype must travel to location to complete the following : Take pictures of the surrounding, take note of traffic by pedestrians and Fye, take note of any public cameras, count the number of established businesses and the number of businesses that are open when the location is visted");
+    window.open("../Profile/steviecarpenter.html", "../Profile/steviecarpenter.html", "width=400,height=400");
+    break;
+    
+    case "open beacon placement":
+    window.open("./Missions/Side_Quest/Beacon_Placement.html", "./Missions/Side_Quest/Beacon_Placement.html", "width=1200,height=750");
+    break;
+            //}
+            //Map Design  {
+    case "details on map design side quest":
+    text = "B.L.A.C.C. Connect is expanding daily, the visual navigation must advance at a proportional rate to the exploration of Archetypes. So, Map Design is a side quest that involves detailed coloring of the map based on B.L.A.C.C. instructions.";
+    Arthenya.say("B.L.A.C.C. Connect is expanding daily, the visual navigation must advance at a proportional rate to the exploration of Archetypes. So, Map Design is a side quest that involves detailed coloring of the map based on B.L.A.C.C. instructions.");
+    alert("B.L.A.C.C. Connect is expanding daily, the visual navigation must advance at a proportional rate to the exploration of Archetypes. So, Map Design is a side quest that involves detailed coloring of the map based on B.L.A.C.C. instructions");
+    window.open("../Profile/steviecarpenter.html", "../Profile/steviecarpenter.html", "width=400,height=400");
+    break;
+    
+    case "open map design":
+    window.open("./Missions/Side_Quest/Map_Design.html", "./Missions/Side_Quest/Map_Design.html", "width=1200,height=750");
+    break;
+            //}
+            //Discover A Network Within The Neighboring Cities  {
+    case "details on discover a network within the neihboring cities side quest":
+    text = "Exploration of the cities are vital. More importantly, the networks and niches that are unique to each city can also be seen in neihboring cities. Discover those networks and document the behavior and proof of network.";
+    Arthenya.say("Exploration of the cities are vital. More importantly, the networks and niches that are unique to each city can also be seen in neihboring cities. Discover those networks and document the behavior and proof of network.");
+    alert("Exploration of the cities are vital. More importantly, the networks and niches that are unique to each city can also be seen in neihboring cities. Discover those networks and document the behavior and proof of network");
+    window.open("../Profile/steviecarpenter.html", "../Profile/steviecarpenter.html", "width=400,height=400");
+    break;
+    
+    case "open discover a network within the neihboring cities":
+    window.open("./Missions/Side_Quest/Discover_A_Network_Within_The_Neighboring_Cities.html", "./Missions/Side_Quest/Discover_A_Network_Within_The_Neighboring_Cities.html", "width=1200,height=750");
+    break;
+            //}
+              //}
+        //Missions  {
+            //Request To Hear The Possible Missions  {
+    case "what are the avaliable missions":
+    text = "The avaliable Missions: Enter The Student Governmnet Position (500 BC Stock - One Time Payout); Get The Licence of Fye's cars and Log Send It To A.S.E.(5 BC Stock - Limited Payout.";
+    Arthenya.say("The avaliable Missions: Enter The Student Governmnet Position with 500 BC Stock - One Time Payout; Get The Licence of Fye cars and Log Send It To A.S.E. with 5 BC Stock - Limited Payout");
+    alert("The avaliable Missions: Enter The Student Governmnet Position (500 BC Stock - One Time Payout); Get The Licence of Fye cars and Log Send It To A.S.E.(5 BC Stock - Limited Payout).");
+    window.open("../Profile/steviecarpenter.html", "../Profile/steviecarpenter.html", "width=400,height=400");
+    break;
+    
+    case "what are the current missions":
+    text = "The avaliable Missions: Enter The Student Governmnet Position (500 BC Stock - One Time Payout); Get The Licence of Fye cars and Log Send It To A.S.E.(5 BC Stock - Limited Payout.";
+    Arthenya.say("The avaliable Missions: Enter The Student Governmnet Position with 500 BC Stock - One Time Payout; Get The Licence of Fye cars and Log Send It To A.S.E. with 5 BC Stock - Limited Payout");
+    alert("The avaliable Missions: Enter The Student Governmnet Position (500 BC Stock - One Time Payout); Get The Licence of Fye cars and Log Send It To A.S.E.(5 BC Stock - Limited Payout).");
+    window.open("../Profile/steviecarpenter.html", "../Profile/steviecarpenter.html", "width=400,height=400");
+    break;
+                  //}
+            //Enter The Student Governmnet Position  {
+    case "details on enter the student government position mission":
+    text = "When enrolled within a college, there is an organization called the student government that has partial power over the money and legislation for students. Sign up for this organization and apply to attain any position.";
+    Arthenya.say("When enrolled within a college, there is an organization called the student government that has partial power over the money and legislation for students. Sign up for this organization and apply to attain any position.");
+    alert("In order to complete this Mission, enrollment within a college is necesary. Also, if the position is attained and lost in the process, BC Stock will be retracked. You must keep the position for a full term");
+    window.open("../Profile/steviecarpenter.html", "../Profile/steviecarpenter.html", "width=400,height=400");
+    break;
+    
+    case "open enter the student government position":
+    window.open("./Missions/Missions/Enter_The_Student_Government_Position.html", "./Missions/Missions/Enter_The_Student_Government_Position.html", "width=1200,height=750");
+    break;
+            //}
+            //Get The Licence of Fye's cars  {
+    case "details on get the licence of fye's cars mission":
+    text = "Collection of the Public Servant Database is vital for protection against Public Servant retaliation. Record the Licence tag of the Fye's car and send it to A.S.E.";
+    Arthenya.say("Collection of the Public Servant Database is vital for protection against Public Servant retaliation. Record the Licence tag of the Fye's car and send it to A.S.E. Be Safe and Stay Dangerous.");
+    alert("Be Safe and Stay Dangerous. Send the information through the notebook. The notebook can be accessed through your A.S.E. using the Phrase : open my notebook. Type in the Licence and the area code where it was documented.");
+    window.open("../Profile/steviecarpenter.html", "../Profile/steviecarpenter.html", "width=400,height=400");
+    break;
+    
+    case "open get the licence of fye's cars":
+    window.open("./Missions/Missions/Get_The_Licence_Of_Fyes_Car.html", "./Missions/Missions/Get_The_Licence_Of_Fyes_Car.html", "width=1200,height=750");
+    break;
+                
+            //}
+            //Get The Badge Number of Fye {
+    case "details on get the badge number of fye mission":
+    text = "Collection of the Public Servant Database is vital for protection against Public Servant retaliation. Record the badge number of the Fye and send it to A.S.E.";
+    Arthenya.say("Collection of the Public Servant Database is vital for protection against Public Servant retaliation. Record the badge number of the Fye and send it to A.S.E. Be Safe and Stay Dangerous.");
+    alert("Be Safe and Stay Dangerous. Send the information through the notebook. The notebook can be accessed through your A.S.E. using the Phrase : open my notebook. Type in the Licence and the area code where it was documented.");
+    window.open("../Profile/steviecarpenter.html", "../Profile/steviecarpenter.html", "width=400,height=400");
+    break;
+    
+    case "open get the badge number of fye":
+    window.open("./Missions/Missions/Get_The_Badge_Number_Of_Fye.html", "./Missions/Missions/Get_The_Badge_Number_Of_Fye.html", "width=1200,height=750");
+    break;
+            //}
+              //}
+        //Team Missions  {
+            //Request To Hear The Possible Missions  {
+    case "what are the avaliable team missions":
+    text = "The avaliable Team Missions: Find The Leader (70 BC Stock - One Time Payout);Find The Primary Personal (70 BC Stock - One Time Payout); Find The Medic (70 BC Stock - One Time Payout); Find The Scout (70 BC Stock - One Time Payout); Find The Muscle (70 BC Stock - One Time Payout).";
+    Arthenya.say("The avaliable Team Missions are Find The Leader  with 70 BC Stock - One Time Payout;Find The Primary Personal with 70 BC Stock - One Time Payout; Find The Medic with 70 BC Stock - One Time Payout; Find The Scout with 70 BC Stock - One Time Payout; Find The Muscle with 70 BC Stock - One Time Payout.");
+    alert("The avaliable Team Missions are Find The Leader  with 70 BC Stock - One Time Payout;Find The Primary Personal with 70 BC Stock - One Time Payout; Find The Medic with 70 BC Stock - One Time Payout; Find The Scout with 70 BC Stock - One Time Payout; Find The Muscle with 70 BC Stock - One Time Payout.");
+    window.open("../Profile/steviecarpenter.html", "../Profile/steviecarpenter.html", "width=400,height=400");
+    break;
+    
+    case "what are the current team missions":
+    text = "The avaliable Team Missions: Find The Leader (70 BC Stock - One Time Payout);Find The Primary Personal (70 BC Stock - One Time Payout); Find The Medic (70 BC Stock - One Time Payout); Find The Scout (70 BC Stock - One Time Payout); Find The Muscle (70 BC Stock - One Time Payout).";
+    Arthenya.say("The avaliable Team Missions are Find The Leader  with 70 BC Stock - One Time Payout;Find The Primary Personal with 70 BC Stock - One Time Payout; Find The Medic with 70 BC Stock - One Time Payout; Find The Scout with 70 BC Stock - One Time Payout; Find The Muscle with 70 BC Stock - One Time Payout.");
+    alert("The avaliable Team Missions are Find The Leader  with 70 BC Stock - One Time Payout;Find The Primary Personal with 70 BC Stock - One Time Payout; Find The Medic with 70 BC Stock - One Time Payout; Find The Scout with 70 BC Stock - One Time Payout; Find The Muscle with 70 BC Stock - One Time Payout.");
+    window.open("../Profile/steviecarpenter.html", "../Profile/steviecarpenter.html", "width=400,height=400");
+    break;
+                  //}
+            //Find The Leader  {
+    case "details on find the leader team mission":
+    text = "Completing missions are easier when you have a team, and some missions can only be attempted with a team. Find the Leader of your team.";
+    Arthenya.say("Completing missions are easier when you have a team, and some missions can only be attempted with a team. Find the Leader of your team. Choose wisely on who you decide to lead the team.");
+    alert("The Leader does not have to be the first person discovered within your team. But eventually, you will need a leader to attempt team missions.");
+    window.open("../Profile/steviecarpenter.html", "../Profile/steviecarpenter.html", "width=400,height=400");
+    break;
+    
+    case "open find the leader":
+    window.open("./Missions/Team_Missions/Find_The_Leader.html", "./Missions/Team_Missions/Find_The_Leader.html", "width=1200,height=750");
+    break;
+            //}
+            //Find The Primary Personal {
+    case "details on find the primary personal team mission":
+    text = "Completing missions are easier when you have a team, and some missions can only be attempted with a team. Find the Primary Personal of your team.";
+    Arthenya.say("Completing missions are easier when you have a team, and some missions can only be attempted with a team. Find the Primary Personal of your team. Having the correct and timely intel is vital, dont sleep on your primary personal.");
+    alert("The primary personal does not have to be in the field. But eventually, they will take to the field.");
+    window.open("../Profile/steviecarpenter.html", "../Profile/steviecarpenter.html", "width=400,height=400");
+    break;
+    
+    case "open find the leader":
+    window.open("./Missions/Team_Missions/Find_The_Primary_Personal.html", "./Missions/Team_Missions/Find_The_Primary_Personal.html", "width=1200,height=750");
+    break;
+            //}
+            //Find The Medic  {
+    case "details on find the medic team mission":
+    text = "Completing missions are easier when you have a team, and some missions can only be attempted with a team. Find the Medic of your team.";
+    Arthenya.say("Completing missions are easier when you have a team, and some missions can only be attempted with a team. Find the Medic of your team. Injuries will occur and health will be compromissed at times, having a medic is essential.");
+    alert("Whenever there is a mission, the medic must be present. No Medic, No Mission. Be Safe and Stay Dangerous.");
+    window.open("../Profile/steviecarpenter.html", "../Profile/steviecarpenter.html", "width=400,height=400");
+    break;
+    
+    case "open find the medic":
+    window.open("./Missions/Team_Missions/Find_The_Medic.html", "./Missions/Team_Missions/Find_The_Medic.html", "width=1200,height=750");
+    break;
+            //}
+            //Find The Scout  {
+    case "details on team scout team mission":
+    text = "Collection of the Public Servant Database is vital for protection against Public Servant retaliation. Record the badge number of the Fye and send it to A.S.E.";
+    Arthenya.say("Collection of the Public Servant Database is vital for protection against Public Servant retaliation. Record the badge number of the Fye and send it to A.S.E. Be Safe and Stay Dangerous.");
+    alert("Be Safe and Stay Dangerous. Send the information through the notebook. The notebook can be accessed through your A.S.E. using the Phrase : open my notebook. Type in the Licence and the area code where it was documented.");
+    window.open("../Profile/steviecarpenter.html", "../Profile/steviecarpenter.html", "width=400,height=400");
+    break;
+    
+    case "open find the scout":
+    window.open("./Missions/Team_Missions/Find_The_Scout.html", "./Missions/Team_Missions/Find_The_Scout.html", "width=1200,height=750");
+    break;
+            //}
+            //Find The Muscle  {
+    case "details on find the muscle team mission":
+    text = "Completing missions are easier when you have a team, and some missions can only be attempted with a team. Find the muscle of your team.";
+    Arthenya.say("Completing missions are easier when you have a team, and some missions can only be attempted with a team. Find the Muscle of your team. When thing start to get diabiocal, you would want someone who can complete any physical task without hesitation.");
+    alert("Whenever the mission needs muscle, bring the muscle. No Muscle, Hard Mission. Move Dangerous and Stay Dangerous.");
+    window.open("../Profile/steviecarpenter.html", "../Profile/steviecarpenter.html", "width=400,height=400");
+    break;
+    
+    case "open find the muscle":
+    window.open("./Missions/Team_Missions/Find_The_Muscle.html", "./Missions/Team_Missions/Find_The_Muscle.html", "width=1200,height=750");
+    break;
+            //}
+              //}
+        //Legion Missions  {
+            //Request To Hear The Possible Missions {
+    case "what are the avaliable legion missions":
+    text = "The avaliable Legion Missions: Gain 350 Archetype or B.L.A.C.C. Members Within The Legion (3500 BC Stock - One-Time Payout); Have Every Member Within The Legion Sign Up For Coinbase (10000 BC Stock - One-Time Payout.";
+    Arthenya.say("The avaliable Legion Missions: Gain 350 Archetype or B.L.A.C.C. Members Within The Legion (3500 BC Stock - One-Time Payout); Have Every Member Within The Legion Sign Up For Coinbase (10000 BC Stock - One-Time Payout).");
+    alert("The avaliable Legion Missions: Gain 350 Archetype or B.L.A.C.C. Members Within The Legion (3500 BC Stock - One-Time Payout); Have Every Member Within The Legion Sign Up For Coinbase (10000 BC Stock - One-Time Payout).");
+    window.open("../Profile/steviecarpenter.html", "../Profile/steviecarpenter.html", "width=400,height=400");
+    break;
+    
+    case "what are the current legion missions":
+    text = "The avaliable Legion Missions: Gain 350 Archetype or B.L.A.C.C. Members Within The Legion (3500 BC Stock - One-Time Payout); Have Every Member Within The Legion Sign Up For Coinbase (10000 BC Stock - One-Time Payout).";
+    Arthenya.say("The avaliable Legion Missions: Gain 350 Archetype or B.L.A.C.C. Members Within The Legion (3500 BC Stock - One-Time Payout); Have Every Member Within The Legion Sign Up For Coinbase (10000 BC Stock - One-Time Payout).");
+    alert("The avaliable Legion Missions: Gain 350 Archetype or B.L.A.C.C. Members Within The Legion (3500 BC Stock - One-Time Payout); Have Every Member Within The Legion Sign Up For Coinbase (10000 BC Stock - One-Time Payout).");
+    window.open("../Profile/steviecarpenter.html", "../Profile/steviecarpenter.html", "width=400,height=400");
+    break;
+                //}
+            //Gain 350 Archetype or B.L.A.C.C. Members Within The Legion  {
+    case "details on gain 350 archetype or black members within the legion legion mission":
+    text = "Bodies is power, build the count and you will have the most powerful archetype in your legion.";
+    Arthenya.say("Bodies are power, build the count and you will have the most powerful archetype in your legion.");
+    alert("Make sure to choose early because after the 350 BC Stock payout, the payout will be no more.");
+    window.open("../Profile/steviecarpenter.html", "../Profile/steviecarpenter.html", "width=400,height=400");
+    break;
+    
+    case "open gain 350 archetype or black members within the legion":
+    window.open("./Missions/Legion_Missions/Gain_350_Archetype_Or_BLACC_Members_Within_The_Legion.html", "./Missions/Legion_Missions/Gain_350_Archetype_Or_BLACC_Members_Within_The_Legion.html", "width=1200,height=750");
+    break;
+            //}
+            //Have Every Member Within The Legion Sign Up For Coinbase  {
+    case "details on have every member within the legion sign up for coinbase legion mission":
+    text = "Currency is a material within this reality. Having cryptocurrency will allow you to exchange to any currency within the world.";
+    Arthenya.say("Currency is a material within this reality. Having cryptocurrency will allow you to exchange to any currency within the world.");
+    alert("Currency is a material within this reality. Having cryptocurrency will allow you to exchange to any currency within the world.");
+    window.open("../Profile/steviecarpenter.html", "../Profile/steviecarpenter.html", "width=400,height=400");
+    break;
+    
+    case "open have every member within the legion sign up for coinbase":
+    window.open("./Missions/Legion_Missions/Have_Every_Member_Within_The_Legion_Sign_Up_For_Coinbase.html", "./Missions/Legion_Missions/Have_Every_Member_Within_The_Legion_Sign_Up_For_Coinbase.html", "width=1200,height=750");
+    break;
+            //}
+            
+            
+            
+            
+            
+              //}
+            //}
+            </script>
+            </html>

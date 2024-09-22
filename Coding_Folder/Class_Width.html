@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Class Width</title>
+</head>
+
+<body>
+<form id="classWidth" action="">
+<fieldset>
+	<legend>Area of Rectangle Calculator</legend>
+	<p>
+		<label for="highestValue">Highest Data Value </label>
+		<input id="highestValue" name="highestValue" type="number/text" />
+	</p>
+	<p>
+		<label for="lowestValue">Lowest Data Value </label>
+		<input id="lowestValue" name="lowestValue" type="number/text" />
+	</p>
+	<p>
+		<label for="numberClass">Number Of Classes </label>
+		<input id="numberClass" name="numberClass" type="number/text" />
+	</p>
+	<p>
+		<input type="submit" value="Calculate" />
+		or
+		<input type="reset" value="Reset" />
+	</p>
+	<p>
+		<label for="classwidth">Class Width : 
+		<input id="classwidth" name="classwidth" type="number" />
+	</p>
+</fieldset>
+</form>
+
+<script>
+(function () {
+	function calculateFishWeight(highestValue, lowestValue, numberClass) {
+		highestValue = parseFloat(highestValue);
+		lowestValue = parseFloat(lowestValue);
+		numberClass = parseFloat(numberClass);
+		return (highestValue - lowestValue) / numberClass;
+	}
+
+	var classWidth = document.getElementById("classWidth");
+	if (classWidth) {
+		classWidth.onsubmit = function () {
+			this.classwidth.value = calculateFishWeight(this.highestValue.value, this.lowestValue.value, this.numberClass.value);
+			return false;
+		};
+	}
+}());
+</script>
+</body>
+</html>
