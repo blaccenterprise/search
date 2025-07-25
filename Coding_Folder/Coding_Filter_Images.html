@@ -1,0 +1,179 @@
+  <!DOCTYPE txt>
+<html>
+<head>
+      <title> Coding Search Engine - Images </title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+	body {
+		    background-image: url('./Circle_Background.jpg');
+
+		}
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+}
+</style>
+</head>
+<body>
+
+	<a href="./Coding_Filter.html"><button  class="previous round" style="width:50px; height:50px; font-size: 24px;">&#8249;
+</button></a>
+
+<h1 style="color: white;">Coding Search Engine - Images</h1>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+
+<ul id="myUL">
+  <li><a href="./Slideshow.txt">Slideshow</a></li>
+
+  <li><a href="./Slideshow_Gallerry.txt">Slideshow Gallerry</a></li>
+  
+  <li><a href="./Modal_Images.txt">Modal Images</a></li>
+
+  <li><a href="./Lightbox.txt">Lightbox</a></li>
+  
+  <li><a href="./Responsive_Image_Grid.txt">Responsive Image Grid</a></li>
+  
+  <li><a href="./Image_Grid.txt">Image Grid</a></li>
+  
+  <li><a href="./Image_Gallery.txt">Image Gallery</a></li>
+  
+  <li><a href="./Scrollable_Image_Gallery.txt">Scrollable Image Gallery</a></li>
+
+  <li><a href="./Tab_Gallery.txt">Tab Gallery</a></li>
+  
+  <li><a href="./Image_Overlay_Fade.txt">Image Overlay Fade</a></li>
+
+  <li><a href="./Image_Overlay_Slide.txt">Image Overlay Slide</a></li>
+  
+  <li><a href="./Image_Overlay_Zoom.txt">Image Overlay Zoom</a></li>
+  
+  <li><a href="./Image_Overlay_Title.txt">Image Overlay Title</a></li>
+  
+  <li><a href="./Image_Overlay_Icon.txt">Image Overlay Icon</a></li>
+  
+  <li><a href="./Image_Effects.txt">Image Effects</a></li> 
+  
+  <li><a href="./Black_And_White_Image.txt">Black And White Image</a></li>
+
+  <li><a href="./Image_Text.txt">Image Text</a></li>
+  
+  <li><a href="./Image_Text_Blocks.txt">Image Text Blocks</a></li>
+  
+  <li><a href="./Transparent_Image_Text.txt">Transparent Image Text</a></li>
+  
+  <li><a href="./Full_Page_Image.txt">Full Page Image</a></li>
+  
+  <li><a href="./Form_On_Image.txt">Form On Image</a></li>
+  
+  <li><a href="./Hero_Image.txt">Hero Image</a></li>
+  
+  <li><a href="./Blur_Background_Image.txt">Blur Background Image</a></li>
+  
+  <li><a href="./Change_Bg_On_Scroll.txt">Change Bg On Scroll</a></li>
+  
+  <li><a href="./Side_By_Side_Images.txt">Side-By-Side Images</a></li>
+  
+  <li><a href="./Rounded_Images.txt">Rounded Images</a></li>
+  
+  <li><a href="./Avatar_Images.txt">Avatar Images</a></li>
+  
+  <li><a href="./Responsive_Images.txt">Responsive Images</a></li>
+  
+  <li><a href="./Center_Images.txt">Center Images</a></li>
+  
+  <li><a href="./Thumbnails.txt">Thumbnails</a></li>
+  
+  <li><a href="./Border_Around_Images.txt">Border Around Images</a></li>
+  
+  <li><a href="./Meet_The_Team.txt">Meet The Team</a></li>
+  
+  <li><a href="./Sticky_Images.txt">Sticky Images</a></li>
+  
+  <li><a href="./Flip_An_Image.txt">Flip An Image</a></li>
+  
+  <li><a href="./Shake_An_Image.txt">Shake An Image</a></li>
+  
+  <li><a href="./Portfolio_Gallery.txt">Portfolio Gallery</a></li>
+  
+  <li><a href="./Portfolio_With_Filtering.txt">Portfolio With Filtering</a></li>
+  
+  <li><a href="./Image_Zoom.txt">Image Zoom</a></li>
+  
+  <li><a href="./Image_Magnifier_Glass.txt">Image Magnifier Glass</a></li>
+  
+  <li><a href="./Image_Comparison_Slider.txt">Image Comparison Slider</a></li>
+  
+  <li><a href="./Favicon.txt">Favicon</a></li>
+  
+</ul>
+
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,115 @@
+  <!DOCTYPE txt>
+<html>
+<head>
+      <title> Coding Search Engine - Menus </title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+	body {
+		    background-image: url('./Circle_Background.jpg');
+
+		}
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+}
+</style>
+</head>
+<body>
+
+		<br>
+
+<h1 style="color: white;">Coding Search Engine</h1>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+
+<ul id="myUL">
+    
+  <li><a href="./Coding_Filter_Grid_Layout.html" target="_self">Grid Layout</a></li>
+    
+  <li><a href="./Coding_Filter_JS.html" target="_self">JavaScript</a></li>
+
+  <li><a href="./Coding_Filter_Menus.html" target="_self">HTML/CSS/JavaScript For Menus</a></li>
+
+  <li><a href="./Coding_Filter_Images.html" target="_self">HTML/CSS/JavaScript For Images</a></li>
+
+  <li><a href="./Coding_Filter_Button.html" target="_self">HTML/CSS/JavaScript For Buttons</a></li>
+
+  <li><a href="./Coding_Filter_Forms.html" target="_self">HTML/CSS/JavaScript For Forms</a></li>
+
+  <li><a href="./Coding_Filter_Filters.html" target="_self">HTML/CSS/JavaScript For Filters</a></li>
+
+  <li><a href="./Coding_Filter_Tables.html" target="_self">HTML/CSS/JavaScript For Tables</a></li>
+
+  <li><a href="./Coding_Filter_Additional.html" target="_self">HTML/CSS/JavaScript For Additional Code</a></li>
+  
+</ul>
+
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
+
+</body>
+</html>

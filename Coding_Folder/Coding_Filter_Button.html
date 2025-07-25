@@ -1,0 +1,136 @@
+  <!DOCTYPE txt>
+<html>
+<head>
+      <title> Coding Search Engine - Buttons </title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+	body {
+		    background-image: url('./Circle_Background.jpg');
+
+		}
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+}
+</style>
+</head>
+<body>
+
+	<a href="./Coding_Filter.html"><button  class="previous round" style="width:50px; height:50px; font-size: 24px;">&#8249;
+</button></a>
+
+<h1 style="color: white;">Coding Search Engine - Buttons</h1>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+
+<ul id="myUL">
+  <li><a href="./Alert_Buttons.txt">Alert Buttons</a></li>
+
+  <li><a href="./Outline_Buttons.txt">Outline Buttons</a></li>
+
+  <li><a href="./Split_Buttons.txt">Split Buttons</a></li>
+
+  <li><a href="./Animated_Buttons.txt">Animated Buttons</a></li>
+
+  <li><a href="./Fading_Buttons.txt">Fading Buttons</a></li>
+
+  <li><a href="./Button_On_Image.txt">Button On Image</a></li>
+
+  <li><a href="./Social_Media_Buttons.txt">Social Media Buttons</a></li>
+
+  <li><a href="./Read_More_Read_Less.txt">Read More Read Less</a></li>
+
+  <li><a href="./Loading_Button.txt">Loading Buttons</a></li>
+
+  <li><a href="./Download_Button.txt">Download Buttons</a></li>
+
+  <li><a href="./Pill_Button.txt">Pill Buttons</a></li>
+
+  <li><a href="./Notification_Button.txt">Notification Buttons</a></li>
+
+  <li><a href="./Notification_Button.txt">Notification Buttons</a></li>
+
+  <li><a href="./Icon_Button.txt">Icon Buttons</a></li>
+
+  <li><a href="./Next_Prev_Button.txt">Next/Prev Buttons</a></li>
+
+  <li><a href="./More_Button_In_Nav.txt">More Button In Nav</a></li>
+
+  <li><a href="./Block_Buttons.txt">Block Buttons</a></li>
+
+  <li><a href="./Text_Buttons.txt">Text Buttons</a></li>
+
+  <li><a href="./Round_Buttons.txt">Round Buttons</a></li>
+
+  <li><a href="./Scroll_To_Top_Button.txt">Scroll To Top Button</a></li>
+</ul>
+
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
+
+</body>
+</html>
