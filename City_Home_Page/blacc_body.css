@@ -1,0 +1,64 @@
+
+body {
+    padding-left: 0em;
+    font-family: Georgia, "Times New Roman", Times, serif, "Open Sans", sans-serif, "Imprint MT Shadow";
+	}
+
+	    html, body, h1, h2, h3, h4, h5 {font-family: Georgia, "Times New Roman", Times, serif, "Open Sans", sans-serif}
+
+
+ 
+.lileft {
+  float: right;
+}
+.liright {
+  float: right;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+	}
+img {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  background-color: black;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Change the link color on hover */
+button:hover {
+  background-color: black;
+  color: white;
+}
+
