@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Font Awesome Icon Library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  margin: 0 auto; /* Center website */
+  max-width: 800px; /* Max width */
+  padding: 20px;
+}
+
+.heading {
+  font-size: 25px;
+  margin-right: 25px;
+}
+
+.fa {
+  font-size: 15px;
+}
+
+.checked {
+  color: orange;
+}
+
+/* Three column layout */
+.side {
+  float: left;
+  width: 15%;
+  margin-top:10px;
+}
+
+.middle {
+  margin-top:10px;
+  float: left;
+  width: 70%;
+}
+
+/* Place text to the right */
+.right {
+  text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The bar container */
+.bar-container-level {
+  width: 85%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+.bar-container-gift-class {
+  width: 85%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+.bar-container-archetype {
+  width: 85%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+.bar-container-base-territories {
+  width: 85%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+.bar-container-experience {
+  width: 85%;
+  background-color: #f4750d;
+  text-align: center;
+  color: white;
+}
+.bar-container-ase-level {
+  width: 85%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+.bar-container-ase-experience {
+  width: 85%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+.bar-container-affiliation {
+  width: 85%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+.bar-container-skills {
+  width: 85%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+.bar-container-legion {
+  width: 85%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+.bar-container-bc-stock {
+  width: 85%;
+  background-color: #f40d0d;
+  text-align: center;
+  color: white;
+}
+
+/* Individual bars */
+.bar-bc-stock {width: 11.5385338461%; height: 18px; background-color: #18f40d;}
+.bar-legion {width: 0%; height: 18px; background-color: #04AA6D;}
+.bar-skills {width: 0%; height: 18px; background-color: #04AA6D;}
+.bar-affiliation {width: 0%; height: 18px; background-color: #04AA6D;}
+.bar-ase-level {width: .428571428571%; height: 18px; background-color: #f40d0d;}
+.bar-ase-experience {width: 61%; height: 18px; background-color: #f40d0d;}
+.bar-experience {width: 31%; height: 18px; background-color: #04AA6D;}
+.bar-base-territories {width: 0%; height: 18px; background-color: #2196F3;}
+.bar-archetype {width: 0%; height: 18px; background-color: #00bcd4;}
+.bar-gift-class {width: 0%; height: 18px; background-color: #ff9800;}
+.bar-level {width: .328571428571%; height: 18px; background-color: #f40d0d;}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .side, .middle {
+    width: 100%;
+  }
+  .right {
+    display: none;
+  }
+}
+</style>
+</head>
+<body>
+
+<span class="heading">Arthenya / Stevie W. Carpenter Stat Card</span>
+<hr style="border:3px solid #f1f1f1">
+
+<div class="row">
+  <div class="side">
+    <div>Level</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container-level">
+      <div class="bar-level"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>0</div>
+  </div>
+  <br>
+  <br>
+  
+  
+  <div class="side">
+    <div>Gift/Class</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container-gift-class">
+      <div class="bar-gift-class"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>Unlock@Lv.5</div>
+  </div>
+  <br>
+  <br>
+  
+  
+  <div class="side">
+    <div>Archetype</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container-archetype">
+      <div class="bar-archetype"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>Unlock@Lv.10</div>
+  </div>
+  <br>
+  <br>
+  
+  <div class="side">
+    <div>Base/Territories</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container-base-territories">
+      <div class="bar-base-territories"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>Unlock@Lv.2</div>
+  </div>
+  <br>
+  <br>
+  
+  
+  <div class="side">
+    <div>Experience</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container-experience">
+      <div class="bar-experience"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>2310</div>
+  </div>
+
+<div class="row">
+  <div class="side">
+    <div>A.S.E. Level</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container-ase-leve">
+      <div class="bar-ase-level"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>0</div>
+  </div>
+  <br>
+  <br>
+
+<div class="row">
+  <div class="side">
+    <div>A.S.E. Exp.</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container-ase-experience">
+      <div class="bar-ase-experience"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>61</div>
+  </div>
+  <br>
+  <br>
+  
+  
+  <div class="side">
+    <div>Affiliation</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container-affiliation">
+      <div class="bar-affiliation"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>Unlock@Lv.10</div>
+  </div>
+  <br>
+  <br>
+  
+  
+  <div class="side">
+    <div>Skills</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container-skills">
+      <div class="bar-skills"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>Unlock@Lv.3</div>
+  </div>
+  <br>
+  <br>
+  
+  <div class="side">
+    <div>Legion</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container-legion">
+      <div class="bar-legion"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>Unlock@Lv.13</div>
+  </div>
+  <br>
+  <br>
+  
+  
+  <div class="side">
+    <div>BC Stock</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container-bc-stock">
+      <div class="bar-bc-stock"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>15,000,094</div>
+  </div>
+
+</body>
+</html>
