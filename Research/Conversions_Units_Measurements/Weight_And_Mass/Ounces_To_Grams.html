@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Conversion From Ounces To Grams</title>
+</head>
+
+<body>
+<form id="fishWeight" action="">
+<fieldset>
+	<legend>Conversion From Ounces To Grams</legend>
+	<p>
+		<label for="ounces">Ounces (oz)</label>
+		<input id="ounces" name="ounces" type="number/text" />
+	</p>
+	<p>
+		<input type="submit" value="Calculate" />
+		or
+		<input type="reset" value="Reset" />
+	</p>
+	<p>
+		<label for="grams">Grams</label>
+		<input id="grams" name="grams" type="number" />
+	</p>
+</fieldset>
+</form>
+
+<script>
+(function () {
+	function calculateFishWeight(ounces) {
+		ounces = parseFloat(ounces);
+		return (ounces * 28.3495);
+	}
+
+	var fishWeight = document.getElementById("fishWeight");
+	if (fishWeight) {
+		fishWeight.onsubmit = function () {
+			this.grams.value = calculateFishWeight(this.ounces.value);
+			return false;
+		};
+	}
+}());
+</script>
+</body>
+</html>

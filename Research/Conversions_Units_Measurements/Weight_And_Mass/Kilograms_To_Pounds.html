@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Conversion From Kilograms To Pounds</title>
+</head>
+
+<body>
+<form id="fishWeight" action="">
+<fieldset>
+	<legend>Conversion From Kilograms To Pounds</legend>
+	<p>
+		<label for="kilograms">Kilograms (in)</label>
+		<input id="kilograms" name="kilograms" type="number/text" />
+	</p>
+	<p>
+		<input type="submit" value="Calculate" />
+		or
+		<input type="reset" value="Reset" />
+	</p>
+	<p>
+		<label for="pounds">Poundss</label>
+		<input id="pounds" name="pounds" type="number" />
+	</p>
+</fieldset>
+</form>
+
+<script>
+(function () {
+	function calculateFishWeight(kilograms) {
+		kilograms = parseFloat(kilograms);
+		return (kilograms * 2.2046);
+	}
+
+	var fishWeight = document.getElementById("fishWeight");
+	if (fishWeight) {
+		fishWeight.onsubmit = function () {
+			this.pounds.value = calculateFishWeight(this.kilograms.value);
+			return false;
+		};
+	}
+}());
+</script>
+</body>
+</html>

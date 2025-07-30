@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Conversion From Short Ton To Metric Ton</title>
+</head>
+
+<body>
+<form id="fishWeight" action="">
+<fieldset>
+	<legend>Conversion From Short Ton To Metric Ton</legend>
+	<p>
+		<label for="shortton">Short Ton </label>
+		<input id="shortton" name="shortton" type="number/text" />
+	</p>
+	<p>
+		<input type="submit" value="Calculate" />
+		or
+		<input type="reset" value="Reset" />
+	</p>
+	<p>
+		<label for="metricton">Metric Tons</label>
+		<input id="metricton" name="metricton" type="number" />
+	</p>
+</fieldset>
+</form>
+
+<script>
+(function () {
+	function calculateFishWeight(shortton) {
+		shortton = parseFloat(shortton);
+		return (shortton * 0.9072);
+	}
+
+	var fishWeight = document.getElementById("fishWeight");
+	if (fishWeight) {
+		fishWeight.onsubmit = function () {
+			this.metricton.value = calculateFishWeight(this.shortton.value);
+			return false;
+		};
+	}
+}());
+</script>
+</body>
+</html>
