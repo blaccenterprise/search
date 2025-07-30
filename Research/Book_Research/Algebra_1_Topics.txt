@@ -1,0 +1,203 @@
+__________________________________________________
+Algebra 1 Topic Outline
+__________________________________________________
+
+
+__________________________________________________
+Unit 1 : Algebra Functions
+__________________________________________________
+
+1. Introduction To Variables
+2. Substitution And Evaluating Expressions
+3. Combining Like Terms
+4. Introduction To Equivalent Experiences
+5. Division By Zero
+__________________________________________________
+
+
+__________________________________________________
+Unit 2 : Solving Equations And Inequalities
+__________________________________________________
+
+1. Linear Equations With Variables On Both Sided
+2. Lineaar Equations With Parentheses
+3. Analyzing The Number Of Solutions To Linear Equations
+4. Linear Equations With Unknown Coefficients
+5. Multi-step Inequalities
+6. Compound Inequalities
+__________________________________________________
+
+
+__________________________________________________
+Unit 3 : Working With Units
+__________________________________________________
+
+1. Rule Conversion
+2. Appropriate Units
+3. Word Problems With Multipple Units
+__________________________________________________
+
+
+__________________________________________________
+Units 4 : Linear Equations And Graphs
+__________________________________________________
+
+1. Two-variable Linear Equation Introductioon
+2. Slope
+3. Horizontal And Vertical Lines
+4. x-intercept And y-intercept
+5. Applying Intercepts And Slope
+6. Modeling With Linear Equations And Inequations
+__________________________________________________
+
+
+__________________________________________________
+Unit 5 : Forms Of Linear Equarions
+__________________________________________________
+
+1.Introduction To Slope-intercept Forms
+2. Graphing Slope-intercept Equations
+Writing Slope-intercept Equations
+4. Point-slope Form
+5. Standard Form
+6. Summary Forms Of Two Variable Linear Equations
+__________________________________________________
+
+
+__________________________________________________
+Unit 6 : Systems Of Equations
+__________________________________________________
+
+1. Introduction To Systems Of Equations 
+2. Solving Systems Of Equations With Substitution
+3. Solving Systems Of Equations With Elimination
+4. Equivalent Systems Of Equations
+5. Number Of Solutions To Systems Of Equations
+6. Systems Of Equations Word Problems
+__________________________________________________
+
+
+__________________________________________________
+Unit 7 : Inequalities (Systems And Graphs)
+__________________________________________________
+
+1. Checking Solutions Of Two-variable Inequalities
+2. Graphing Two-variable Inequalities
+3. Modeling With Linear Inequalities
+__________________________________________________
+
+
+__________________________________________________
+Unit 8 : Functions
+__________________________________________________
+
+1. Evaluating Functions
+2. Imputs And Outputs Of A Function
+3. Functions And Equations
+4. Interpreting Function Notation
+5. Introduction To The Domain And Range Of A Function
+6. Determing The Domain Of A Function
+7. Recognizing Functions
+8. Maximum And Minimum Points
+9. Interval Where A Function Is Positive, Negative, 
+increasing, or decreasing
+10. Interpreting Features Of Graphs
+11. Average Rate Of Change
+12. Average Rate Of Word Problems
+13. Introduction To Inverse Functions
+__________________________________________________
+
+
+__________________________________________________
+Unit 9 : Sequences
+__________________________________________________
+
+1. Introduction To Arithmetic Sequences
+2. Constructing Arithmetic Sequences
+3. Introduction To Geometry Sequences
+4. Constructing Geometric Sequences
+5. Modeling With Sequences
+General Sequences
+__________________________________________________
+
+
+__________________________________________________
+Unit 10 : Absolute Value And Piecewise Functioon
+__________________________________________________
+
+1. Graphs Of Absolute Value Functions
+2. Piecewise Functions
+__________________________________________________
+
+
+__________________________________________________
+Unit 11 : Exponents And Radicals
+__________________________________________________
+
+1. Exponent Properties Review
+2. Radicals
+3. Simplying Square Roots
+__________________________________________________
+
+
+__________________________________________________
+Unit 12 : Exponential Growth And Decay
+__________________________________________________
+
+1. Exponential vs. Linear Growth
+2. Expponential Expressions
+3. Graphs Of Exponential Growth
+4. Exponential vs. Linear Growth Over Time
+5. Exponential Growth And Decay
+6. Expoential Equations From Graphs And Tables
+7. Exponential vs. Linear Models
+__________________________________________________
+
+
+__________________________________________________
+Unit 13 : Quadratics: Multiplying and Factoring
+__________________________________________________
+
+1. Multiplying Monomials By Polynomials
+2. Multiplying Binomials
+3. Specials Products Of Binomials
+4. Introduction Into Factoring
+5. Factoring Quadratics Introduction
+6. Factoring Quadratics By Grouping
+7. Factoring Quadratics With Difference Of Squares
+8. Factoring Quadratics With Perfect Squares
+9. Strategy in Factoring Quadratics
+__________________________________________________
+
+
+__________________________________________________
+Unit 14 : Quadratic Equations And Functions
+__________________________________________________
+
+
+__________________________________________________
+1. Introduction To Parabolas
+2. Solving And Graphing With Factored Forms
+3. Solving By Taking The Square Roots
+4. Vertex Form
+5. Solving Quadratics By Factoring
+6. The Quadratic Formula
+7. Completing The Square Introduction
+8. More On Completing The Square
+9. Strategizing To Solve Quadratic Equations
+10. Quadratic Standard Form
+11. Features And Form Of Quadratic Equation
+12. Comparing Quadratic Functions
+13. Transforming Quadratic Functions
+__________________________________________________
+
+
+__________________________________________________
+Unit 15 : Irrational Numbers
+__________________________________________________
+
+1. Irrational Numbers
+2. Sum And Product Of Ration And Irrational Numbers
+3. Proofs Concerning Irrational Numbers
+
+__________________________________________________

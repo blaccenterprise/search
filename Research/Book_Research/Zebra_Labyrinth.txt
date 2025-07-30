@@ -1,0 +1,508 @@
+________________________________________________________________________________
+Page 1 - File System
+________________________________________________________________________________
+
+1. Artificial Support Engine
+    + ASE 
+        + Comparative
+        + Missions
+            + Missions
+            + Legion_Missions
+            + Objectives
+            + Side_Quest
+            + Team Missions
+        + Public Servent
+        + Research
+            + Aninmal_Research
+            + Book_Research
+            + Chemistry_Research
+            + Computer_Research
+            + Firearms
+            + Mechanical_Research
+            + Neurobiology_Research
+            + Physics_Research
+            + World_Research
+            
+2. BLACC
+    +blacc
+        - BLACC_Search.html
+        
+3. BLACC_App_Store
+    + blaccstore
+        + BLACC_Academy
+        + BLACC_App_Store
+        + BLACC_Ark
+        + BLACC_Connect
+        + BLACC_Guided_Pathways
+        + BLACC_Music
+            + BLACC_Music_Beats
+            + Instramentals
+            + Wav_Samples
+        + BLACC_Pillars
+            + Asclepieion_Of_BLACC
+        + BLACC_Profile
+            + Baldwin
+            + Brycee_Mitchell
+            + Contact_Card
+            + David_Bush
+            + Daymeion_Sheilds
+            + Larry_Caldwell
+            + New_User
+            + User_Content
+            + Stevie_W_Carpenter
+        + BLACCimages
+        + Eye
+        + NFT
+        + OneiroNet
+        + Vital_Mathematics
+        
+3. BLACC_Ark
+    + blaccark
+        + Archetype_Chamber
+            + Body_Type
+            + Bouble_HElix
+            + Green_Cross
+            + Medication
+            + Research
+            + Search
+        + BLACC_Ark
+            + Body_Type
+            + Bouble_HElix
+            + Green_Cross
+            + Medication
+            + Research
+            + Search
+        + Body
+        + Brycee_Mitchell
+            + Archetype_Chamber
+                + Body_Type
+                + Bouble_Helix
+                + Green_Cross
+                + Medication
+                + Research
+                + Search
+            + Body
+            + Constellations
+                + Brycee_Mitchell
+                    + Profile_Card
+        + Chubby_Rock
+        + CSS
+        + David_Bush
+        + Help
+        + Images
+        + Stevie_Carpenter
+        
+4. BLACC Corporation
+    +blacccorporatioon
+        + Asclepieion_Of_BLACC
+        + BLACC_Academy
+            + Computer_Science
+                + CSS
+                + Excel
+                + HTML
+                + JAVASCRIPT
+                + Linux
+                + Logic_Reasoning
+                + Vital_Mathematics
+                + R
+            +Module_ Humanities
+                + Module_1
+                |
+                |
+                + Module_16
+        + Black_Created_Websites
+            + Black_Websites
+            + CSS
+            + Government_Agencies
+            + Images
+            + Non_Profits
+            + Website_Template
+        + NFT
+            + Danifu
+            + Stevie_W_Carpenter
+                +Negro__Queen_Essence
+        + OneiroNet
+            + External_Objective_Sensory_Stimuli
+            + External_Organic_Physical_Exitation
+            + Internal_Subjective_Sensory_Stimuli
+            + Psychic_Exciting/_Source
+        + Pharaoh_History
+        + Vital_Mathematics
+
+5. BLACC_Profile
+    + blacc_profile
+        + Brycee_Mitchell
+        + Contact_Card
+        + David_Bush
+        + Daymeion_Shield
+        + Larry_Caldwell
+        + New_User
+        
+6. BLACChole
+    + blacchole
+        + Asclepieion_Of_BLACC
+        + ASE
+        + Audio
+        + BLACC_Ark
+        + BLACC_Connect
+        + BLACC_Music
+        + BLACC_Profile
+        + BLACC_Tele
+        + Blackliniing
+        + Eye
+        + Movies
+        + Music
+        + New_Nexxus
+        + NFT
+        + OneiroNet
+        + Pharaoh_History
+        + Tutorial
+        + Upload
+        + Videos
+        + Vital_Mathematics
+        + Website_Inquiry
+        
+7. Content
+    + content
+        + BLACCimages
+        + CSS
+        
+8. Database
+    + database
+        + BLACC_Database_California_Los_Angeles_District_1
+            + Alhambra
+            + Azusa
+            + Baldwin_Park
+            + Covina
+            + Diamond_Bar
+            + El_Monte
+            + Industry
+            + Irwindale
+            + La_Puente
+            + Los_Angeles
+            + Montobello
+            + Pomona
+            + Rosemead
+            + San_Gabriel
+            + South_El_Monte
+            + Walnut
+            + West_Covina
+        + BLACC_Database_California_Los_Angeles_District_2_And_3
+            + Agoura_Hills
+            + Beverly_Hills
+            + Calabasas
+            + Carson
+            + Compton
+            + Culver_City
+            + El_Segundo
+            + Gardena
+            + Hawthorne
+            + Hermosa_Beach
+            + Hidden_Hills
+            + Inglewood
+            + Lawndale
+            + Los_Angeles
+            + Malibu
+            + Manhattan_Beach
+            + Redondo_Beach
+            + San_Fernando
+            + Santa_Monica
+            + West_Hollywood
+            + Westlake_Village
+        + BLACC_Database_California_Los_Angeles_District_4
+            + Avalon
+            + Bell
+            + Bell_Gardens
+            + Bellflower
+            + Commerce
+            + Cudahy
+            + Downey
+            + Huntington_Park
+            + La_Habra_Height
+            + La_Mirada
+            + Lakewood
+            + Lomita
+            + Long_Beach
+            + Los_Angeles
+            + Lynwood
+            + Maywood
+            + Norwalk
+            + Palos_Verdes_Estate
+            + Paramount
+            + Pico_Rivera
+            + Rancho_Palo_Verdes
+            + Rolling_Hills
+            + San_Catalina_Island
+            + San_Clemente_Island
+            + Santa_Fe_Springs
+            + Signal_Hills
+            + South_Gate
+            + Torrance
+            + Vernon
+            + Whittier
+        + BLACC_Database_California_Los_Angeles_District_5
+            + Arcadia
+            + Bradbury
+            + Burbank
+            + Claremont
+            + Duarte
+            + Glendale
+            + Glendora
+            + La_Canada
+            + La_Verne
+            + Lancaster
+            + Monrovia
+            + Palmdale
+            + Pasadena
+            + San_Dimas
+            + San_Marino
+            + Santa_Clarita
+            + South_Pasadena
+            + Sierra_Madre
+            + Temple_City
+        + BLACC_Database_Nevada_Las_Vegas_All_Districts
+            + Boulder_City
+            + Bunkerville
+            + Cal_Nev_Ari
+            + Corn_Creek
+            + Coyotte_Springs
+            + Echo_Bay
+            + Henderson
+            + Indian_Springs
+            + Jean
+            + Las_Vegas
+            + Laughlin
+            + Moapa_Valley
+            + Mosquite
+            + Overturn
+            + Primm
+            + Sandy_Valley
+            + Searchlight
+            + Sloan
+            + Southern_Desert_Correctional_Center
+            
+9. New_Nexxus
+    + newnexxus
+    
+10. Profile
+    + profile
+    
+11. Search
+    + search
+        + City_Home_Page
+        + Coding_Folder
+        + Images
+        + Math_Operations
+        + Physics
+        
+12. World_Wide_Watch
+    + world_wide_watch
+    
+
+
+________________________________________________________________________________
+Page 2 - Profile Card
+________________________________________________________________________________
+
+Level : User's Level
+Experience : User's Experience
+B.L.A.C.C. Connect Level : User's Level Rank
+Profile Link : To User's B.L.A.C.C. Connect Profile
+Solgif : Unlock@Lv.5
+Class : Unlock@Lv.5
+Archetype : Unlock@Lv.10
+Base : Unlock@Lv.2
+Territories Discovered : Unlock@Lv.5
+Arsonal : Unlock@Lv.10
+Viewable Inventory : ChromebookOS 315 Laptop
+Skills : Web Development, Ambition
+Body Type : Mesomorph
+Affiliation : Unlock@Lv.10
+Zodiac (Sun) : Gemini
+Zodiac (Moon) : Capricorn
+Zodiac (Ascendant): Leo
+Familiar : Unlock@Lv.15
+Legion : Unlock@Lv.15
+BC Stock Collected : 15,000,094
+Bc Stock Spent : 0
+Missions Completed : -
+Missions Failed : -
+Missions Attempted : -
+A.S.E. Contribution : -
+A.S.E. Level : -
+Spawn Location : Los Angeles County, California
+
+________________________________________________________________________________
+Page 3 - Arthenya's Memory Vault
+________________________________________________________________________________
+
+1. Operators
+2. Sections Within Memory Vault
+3. Websites Pathway
+4. B.L.A.C.C. Guide  Pathway
+5. Website  Inquiry Pathway
+6. B.L.A.C.C. Server Pathway
+7. Blacklining Pathway
+8. New Nexxus Pathway
+9. B.L.A.C.C. Ark Pathway
+10. Zodiac Pathway
+11. Aspects Of Zodiac Pathway
+12. Own Pathway
+13. Data Pathway
+14. NFT Pathway
+15. Eye Pathway
+16. B.L.A.C.C. Connect Pathway
+17. Vital Mathematics Pathway
+18. OneiroNet
+19. CAtegories For B.L.A.C.C. Connect Pathway
+20. Distirct 1  Of Los Angeles California Pathway
+21. Distirct 2  Of Los Angeles California Pathway
+22. Distirct 3  Of Los Angeles California Pathway
+23. Distirct 4  Of Los Angeles California Pathway
+24. Distirct 5  Of Los Angeles California Pathway
+25. Clark Neveda Pathway
+
+________________________________________________________________________________
+Page 4 - Arthenya
+________________________________________________________________________________
+
+Frontal Lobe {
+
+    - Warm Up
+    - Research
+    - Message
+    - Mother Connection
+    - A.S.E.
+    - A.S.E. Manual
+    - Executive Optimization 
+    - Missions
+    
+}
+
+
+Temporal Lobe {
+
+    - Master Code
+    - Interesting Facts
+    - B.L.A.C.C. Members
+    - Response To Name
+    - Fun Actions
+    - Arthenya's Memory Vault
+    - Response To Haters
+    - Quick Advice
+    - Notebook
+    - Terminology Bank
+    - Meaning Behind Name
+    - Phrase Creation
+    - Good Morning Response
+    - Arthenya's Pathway
+    - Acknowledgement Of Creator
+    - Optimization
+    
+}
+
+Parietal Lobe {
+    
+    - B.L.A.C.C. Connect Level One
+    - B.L.A.C.C. Connect Level Two
+    
+}
+
+Occipital Lobe {
+
+    - Profile
+    - Money Movement
+    - Black Movement
+    - Combat Modde
+    - Ultra Instinct
+    - B.L.A.C.C. Corporation
+    
+}
+
+________________________________________________________________________________
+Page 5 - B.L.A.C.C. App Store
+________________________________________________________________________________
+
+Home {
+
+    - B.L.A.C.C. Corporation
+    - B.L.A.C.C. Connect
+    - B.L.A.C.C. Search
+    - A.S.E.
+    - B.L.A.C.C. Ark
+    - Vital Mathematics
+    
+)
+
+Page 1 {
+
+    - New Nexxus
+    - B.L.A.C.C. Profile
+    - BLACChole
+    - Pharaoh History
+    - OneiroNet
+    - Asclepieion Of B.L.A.C.C.
+    
+}
+
+Page 2 {
+
+    - NFT
+    - Eye
+    - Blacklining
+    - B.L.A.C.C. Tele-Communication Services
+    - Website Inquiry
+    - B.L.A.C.C. Music
+    
+}
+
+Page 3 {
+
+    - B.L.A.C.C. Message
+    - B.L.A.C.C. Academy
+    - B.L.A.C.C. Email
+    - B.L.A.C.C. Database
+    - B.L.A.C.C. Guided Pathways
+    
+}
+
+
+________________________________________________________________________________
+Page 6 - Aspects For Math Formulas Coding
+________________________________________________________________________________
+
+<body>
+<form id='AAAAA' action=''>
+<fieldset>
+    <legend> (NAME OF MATH FORMAULA) </legend>
+    <p>
+        <label for="variable_1"> Variable_1_Name (unit) </label>
+        <input id="variable_1" name="Variable_1_Name" type="number/text"/>
+    </p>
+    <p>
+        <label for="variable_2"> Variable_2_Name (unit) </label>
+        <input id="variable_2" name="Variable_2_Name" type="number/text"/>
+    </p>
+</fieldset>
+</form>
+<script>
+(function () {
+    function calculateAAAAA(Variable_1,Variable_2) {
+    Variable_1 = parseFloat(Variable_1);
+    Variable_2 = parseFloat(Variable_2);
+    return (MATH FORMULA);
+}
+
+Var AAAAA = document.getElementById ("AAAAA");
+if (AAAAA) {
+    AAAAA.onsubmit = function () {
+        this.weight.value = calulateAAAAA(this.Variable_1.value, this.Variable_2.value);
+        return false;
+        };
+        }
+        } () );
+</script>
+</body>
+
+________________________________________________________________________________
+Page 7 - 
