@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Conversion From Pints To Liters</title>
+</head>
+
+<body>
+<form id="fishWeight" action="">
+<fieldset>
+	<legend>Conversion From Pints To Liters</legend>
+	<p>
+		<label for="pints">Pints (Pt)</label>
+		<input id="pints" name="pints" type="number/text" />
+	</p>
+	<p>
+		<input type="submit" value="Calculate" />
+		or
+		<input type="reset" value="Reset" />
+	</p>
+	<p>
+		<label for="liters">Literss</label>
+		<input id="liters" name="liters" type="number" />
+	</p>
+</fieldset>
+</form>
+
+<script>
+(function () {
+	function calculateFishWeight(pints) {
+		pints = parseFloat(pints);
+		return (pints * 0.4732);
+	}
+
+	var fishWeight = document.getElementById("fishWeight");
+	if (fishWeight) {
+		fishWeight.onsubmit = function () {
+			this.liters.value = calculateFishWeight(this.pints.value);
+			return false;
+		};
+	}
+}());
+</script>
+</body>
+</html>

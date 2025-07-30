@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Conversion From Liters To Quarts</title>
+</head>
+
+<body>
+<form id="fishWeight" action="">
+<fieldset>
+	<legend>Conversion From Liters To Quarts</legend>
+	<p>
+		<label for="liters">Liters (in)</label>
+		<input id="liters" name="liters" type="number/text" />
+	</p>
+	<p>
+		<input type="submit" value="Calculate" />
+		or
+		<input type="reset" value="Reset" />
+	</p>
+	<p>
+		<label for="quarts">Quartss</label>
+		<input id="quarts" name="quarts" type="number" />
+	</p>
+</fieldset>
+</form>
+
+<script>
+(function () {
+	function calculateFishWeight(liters) {
+		liters = parseFloat(liters);
+		return (liters * 1.0567);
+	}
+
+	var fishWeight = document.getElementById("fishWeight");
+	if (fishWeight) {
+		fishWeight.onsubmit = function () {
+			this.quarts.value = calculateFishWeight(this.liters.value);
+			return false;
+		};
+	}
+}());
+</script>
+</body>
+</html>
