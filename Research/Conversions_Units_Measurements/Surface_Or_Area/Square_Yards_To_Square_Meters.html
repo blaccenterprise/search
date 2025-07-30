@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Conversion From Square Yards To Square Meters</title>
+</head>
+
+<body>
+<form id="fishWeight" action="">
+<fieldset>
+	<legend>Conversion From Square Yards To Square Meters</legend>
+	<p>
+		<label for="squareyards">Square Yards (yrds<sup>2</sup>)</label>
+		<input id="squareyards" name="squareyards" type="number/text" />
+	</p>
+	<p>
+		<input type="submit" value="Calculate" />
+		or
+		<input type="reset" value="Reset" />
+	</p>
+	<p>
+		<label for="squaremeter">Square Meters</label>
+		<input id="squaremeter" name="squaremeter" type="number" />
+	</p>
+</fieldset>
+</form>
+
+<script>
+(function () {
+	function calculateFishWeight(squareyards) {
+		inches = parseFloat(squareyards);
+		return (squareyards * 0.8361);
+	}
+
+	var fishWeight = document.getElementById("fishWeight");
+	if (fishWeight) {
+		fishWeight.onsubmit = function () {
+			this.squaremeter.value = calculateFishWeight(this.squareyards.value);
+			return false;
+		};
+	}
+}());
+</script>
+</body>
+</html>

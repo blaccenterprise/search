@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Conversion From Square Kilometers To Square Miles</title>
+</head>
+
+<body>
+<form id="fishWeight" action="">
+<fieldset>
+	<legend>Conversion From Square Kilometers To Square Miles</legend>
+	<p>
+		<label for="squarekilometers">Square Kilometers (kM<sup>2</sup>)</label>
+		<input id="squarekilometers" name="squarekilometers" type="number/text" />
+	</p>
+	<p>
+		<input type="submit" value="Calculate" />
+		or
+		<input type="reset" value="Reset" />
+	</p>
+	<p>
+		<label for="squaremiles">Square Kilometers</label>
+		<input id="squaremiles" name="squaremiles" type="number" />
+	</p>
+</fieldset>
+</form>
+
+<script>
+(function () {
+	function calculateFishWeight(squarekilometers) {
+		inches = parseFloat(squarekilometers);
+		return (squarekilometers * 0.3861);
+	}
+
+	var fishWeight = document.getElementById("fishWeight");
+	if (fishWeight) {
+		fishWeight.onsubmit = function () {
+			this.squaremiles.value = calculateFishWeight(this.squarekilometers.value);
+			return false;
+		};
+	}
+}());
+</script>
+</body>
+</html>

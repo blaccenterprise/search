@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Conversion From Hectacres To Acres</title>
+</head>
+
+<body>
+<form id="fishWeight" action="">
+<fieldset>
+	<legend>Conversion From Hectacres To Acres</legend>
+	<p>
+		<label for="hectacres">Hectacres (Hectacres<sup>2</sup>)</label>
+		<input id="hectacres" name="hectacres" type="number/text" />
+	</p>
+	<p>
+		<input type="submit" value="Calculate" />
+		or
+		<input type="reset" value="Reset" />
+	</p>
+	<p>
+		<label for="acres">Acres</label>
+		<input id="acres" name="acres" type="number" />
+	</p>
+</fieldset>
+</form>
+
+<script>
+(function () {
+	function calculateFishWeight(hectacres) {
+		inches = parseFloat(hectacres);
+		return (hectacres * 2.4710);
+	}
+
+	var fishWeight = document.getElementById("fishWeight");
+	if (fishWeight) {
+		fishWeight.onsubmit = function () {
+			this.acres.value = calculateFishWeight(this.hectacres.value);
+			return false;
+		};
+	}
+}());
+</script>
+</body>
+</html>

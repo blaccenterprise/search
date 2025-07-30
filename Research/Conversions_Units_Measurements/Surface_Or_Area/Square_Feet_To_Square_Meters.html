@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Conversion From Square Feet To Square Meters</title>
+</head>
+
+<body>
+<form id="fishWeight" action="">
+<fieldset>
+	<legend>Conversion From Square Feet To Square Meters</legend>
+	<p>
+		<label for="squarefeet">Square Feet (Ft<sup>2</sup>)</label>
+		<input id="squarefeet" name="squarefeet" type="number/text" />
+	</p>
+	<p>
+		<input type="submit" value="Calculate" />
+		or
+		<input type="reset" value="Reset" />
+	</p>
+	<p>
+		<label for="squaremeter">Square Meters</label>
+		<input id="squaremeter" name="squaremeter" type="number" />
+	</p>
+</fieldset>
+</form>
+
+<script>
+(function () {
+	function calculateFishWeight(squarefeet) {
+		inches = parseFloat(squarefeet);
+		return (squarefeet * 0.0929);
+	}
+
+	var fishWeight = document.getElementById("fishWeight");
+	if (fishWeight) {
+		fishWeight.onsubmit = function () {
+			this.squaremeter.value = calculateFishWeight(this.squarefeet.value);
+			return false;
+		};
+	}
+}());
+</script>
+</body>
+</html>
