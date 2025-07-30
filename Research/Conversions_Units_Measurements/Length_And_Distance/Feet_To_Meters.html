@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Conversion From Feet To Meter</title>
+</head>
+
+<body>
+<form id="fishWeight" action="">
+<fieldset>
+	<legend>Conversion From Feet To Meter</legend>
+	<p>
+		<label for="feet">Feet (ft)</label>
+		<input id="feet" name="feet" type="number/text" />
+	</p>
+	<p>
+		<input type="submit" value="Calculate" />
+		or
+		<input type="reset" value="Reset" />
+	</p>
+	<p>
+		<label for="meter">Meter</label>
+		<input id="meter" name="meter" type="number" />
+	</p>
+</fieldset>
+</form>
+
+<script>
+(function () {
+	function calculateFishWeight(feet) {
+		feet = parseFloat(feet);
+		return (feet * 0.3048);
+	}
+
+	var fishWeight = document.getElementById("fishWeight");
+	if (fishWeight) {
+		fishWeight.onsubmit = function () {
+			this.meter.value = calculateFishWeight(this.feet.value);
+			return false;
+		};
+	}
+}());
+</script>
+</body>
+</html>

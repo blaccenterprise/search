@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Conversion From Miles To Kilometer</title>
+</head>
+
+<body>
+<form id="fishWeight" action="">
+<fieldset>
+	<legend>Conversion From Miles To Kilometer</legend>
+	<p>
+		<label for="miles">Miles (yrds)</label>
+		<input id="miles" name="miles" type="number/text" />
+	</p>
+	<p>
+		<input type="submit" value="Calculate" />
+		or
+		<input type="reset" value="Reset" />
+	</p>
+	<p>
+		<label for="kilometer">Kilometer</label>
+		<input id="kilometer" name="kilometer" type="number" />
+	</p>
+</fieldset>
+</form>
+
+<script>
+(function () {
+	function calculateFishWeight(miles) {
+		miles = parseFloat(miles);
+		return (miles * 1.6093);
+	}
+
+	var fishWeight = document.getElementById("fishWeight");
+	if (fishWeight) {
+		fishWeight.onsubmit = function () {
+			this.kilometer.value = calculateFishWeight(this.miles.value);
+			return false;
+		};
+	}
+}());
+</script>
+</body>
+</html>

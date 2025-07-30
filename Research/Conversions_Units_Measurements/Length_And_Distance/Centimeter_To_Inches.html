@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Conversion From Centimeter To Inches</title>
+</head>
+
+<body>
+<form id="fishWeight" action="">
+<fieldset>
+	<legend>Conversion From Centimeter To Inches</legend>
+	<p>
+		<label for="centimeter">Centimeter (ft)</label>
+		<input id="centimeter" name="centimeter" type="number/text" />
+	</p>
+	<p>
+		<input type="submit" value="Calculate" />
+		or
+		<input type="reset" value="Reset" />
+	</p>
+	<p>
+		<label for="inches">Inches</label>
+		<input id="inches" name="inches" type="number" />
+	</p>
+</fieldset>
+</form>
+
+<script>
+(function () {
+	function calculateFishWeight(centimeter) {
+		centimeter = parseFloat(centimeter);
+		return (centimeter * 0.3937);
+	}
+
+	var fishWeight = document.getElementById("fishWeight");
+	if (fishWeight) {
+		fishWeight.onsubmit = function () {
+			this.inches.value = calculateFishWeight(this.centimeter.value);
+			return false;
+		};
+	}
+}());
+</script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Conversion From Yards To Meter</title>
+</head>
+
+<body>
+<form id="fishWeight" action="">
+<fieldset>
+	<legend>Conversion From Yards To Meter</legend>
+	<p>
+		<label for="yards">Yards (yrds)</label>
+		<input id="yards" name="yards" type="number/text" />
+	</p>
+	<p>
+		<input type="submit" value="Calculate" />
+		or
+		<input type="reset" value="Reset" />
+	</p>
+	<p>
+		<label for="meter">Meter</label>
+		<input id="meter" name="meter" type="number" />
+	</p>
+</fieldset>
+</form>
+
+<script>
+(function () {
+	function calculateFishWeight(yards) {
+		yards = parseFloat(yards);
+		return (yards * 0.9144);
+	}
+
+	var fishWeight = document.getElementById("fishWeight");
+	if (fishWeight) {
+		fishWeight.onsubmit = function () {
+			this.meter.value = calculateFishWeight(this.yards.value);
+			return false;
+		};
+	}
+}());
+</script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Conversion From Millimeter To Inches</title>
+</head>
+
+<body>
+<form id="fishWeight" action="">
+<fieldset>
+	<legend>Conversion From Millimeter To Inches</legend>
+	<p>
+		<label for="millimeter">Millimeter (ft)</label>
+		<input id="millimeter" name="millimeter" type="number/text" />
+	</p>
+	<p>
+		<input type="submit" value="Calculate" />
+		or
+		<input type="reset" value="Reset" />
+	</p>
+	<p>
+		<label for="inches">Inches</label>
+		<input id="inches" name="inches" type="number" />
+	</p>
+</fieldset>
+</form>
+
+<script>
+(function () {
+	function calculateFishWeight(millimeter) {
+		millimeter = parseFloat(millimeter);
+		return (millimeter * 0.0394);
+	}
+
+	var fishWeight = document.getElementById("fishWeight");
+	if (fishWeight) {
+		fishWeight.onsubmit = function () {
+			this.inches.value = calculateFishWeight(this.millimeter.value);
+			return false;
+		};
+	}
+}());
+</script>
+</body>
+</html>
